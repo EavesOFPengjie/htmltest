@@ -1,0 +1,49 @@
+*{  
+           padding:0;  
+           margin:0;  
+       }  
+       /*一级菜单*/  
+       .navMenu {  
+           width:570px;  
+           margin:0 auto;  
+           margin-top: 20px;  
+           position: relative;  
+       }  
+       .navMenu ul li{  
+           float: left;  
+       }  
+       li{  
+           list-style: none;  
+           background-color: #eee;  
+           width: 140px;  
+           height: 34px;  
+           text-align: center;  
+           margin-right: 2px;  
+           margin-bottom: 2px;  
+       }  
+       .navMenu ul li:hover{  
+           background:url(images/slide-pannel_14.png) 0 0 repeat-x;  
+       }  
+       ul li a{  
+           line-height: 34px;  
+           text-align: center;  
+           font-size: 20px;  
+           color: #000;  
+           text-decoration: none;  
+           display: block;  
+           padding:0 10px;  
+       }  
+       /*二级菜单*/  
+       .navMenu ul li ul {  
+           display: none;  
+           position:absolute;  
+           top:34px;  
+       }  
+       .active{  
+           background:url(images/slide-pannel_14.png) 0 0 repeat-x;  
+       }  
+       .corner{  
+           display: block;  
+           height: 11px;  
+           background: url("images/bird.png") 61px 0 no-repeat ;  
+       }  
